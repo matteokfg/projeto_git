@@ -30,8 +30,11 @@ function calcularExponencial(base, expoente) {
 }
 
 function calcularRaizQuadrada(numero) {
-  return "O valor da raiz quadrada é: ";
+ 
+ var resultado = Math.sqrt(numero)
+  return "O valor da raiz quadrada é: " + resultado;
 }
+
 
 
 // manipuladores de eventos para a página de Baskara
