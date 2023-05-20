@@ -12,7 +12,9 @@ function calcularBaskara(a, b, c) {
 }
 
 function calcularEquacaoReta(a, x, b) {
-  return "O valor de y é: ";
+  var resultado = a*x + b;
+
+  return "O valor de y é: " + resultado; 
 }
 
 function calcularHipotenusa(a, b) {
@@ -30,8 +32,11 @@ function calcularExponencial(base, expoente) {
 }
 
 function calcularRaizQuadrada(numero) {
-  return "O valor da raiz quadrada é: ";
+ 
+ var resultado = Math.sqrt(numero)
+  return "O valor da raiz quadrada é: " + resultado;
 }
+
 
 
 // manipuladores de eventos para a página de Baskara
