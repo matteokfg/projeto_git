@@ -33,7 +33,7 @@ function calcularExponencial(base, expoente) {
 
 function calcularRaizQuadrada(numero) {
  
- var resultado = Math.sqrt(numero)
+  var resultado = Math.sqrt(numero)
   return "O valor da raiz quadrada é: " + resultado;
 }
 
